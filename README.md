@@ -21,6 +21,7 @@ O Project Management é um app que permite adicionar projetos e tarefas, funcion
 
 ## 🔖 Acesso
 
+[Project Management](https://project-management-0.netlify.app)
 
 ## 🚀 Como executar
 
