@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NewProject } from "./components/Project/NewProject";
+import { NewProject } from "./components/project/NewProject";
 import { Sidebar } from "./components/Sidebar";
 import { NoProjectSelected } from "./components/project/NoProjectSelected";
 import uuidv4 from "node-uuid";
