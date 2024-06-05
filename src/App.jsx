@@ -131,9 +131,9 @@ export function App() {
     }
 
     return (
-        <main className="flex flex-col h-screen">
+        <main className="flex flex-col h-screen min-w-[640px]">
             <div className="my-8"></div>
-            <div className="flex h-full gap-8">
+            <div className="flex h-full max-h-[calc(100%-64px)] gap-8">
                 <Sidebar
                     onStartAddProject={handleStartAddProject}
                     projects={projectsState.projects}

@@ -14,7 +14,7 @@ export function Sidebar({
             <div>
                 <Button onClick={onStartAddProject}>+ Add Project</Button>
             </div>
-            <ul className="mt-8">
+            <ul className="mt-8 overflow-auto max-h-[672px]">
                 {projects.map((project) => {
                     let cssClasses = "w-full text-left px-2 py-1 rounded-sm my-1 hover:text-stone-200 hover:bg-stone-800";
 
